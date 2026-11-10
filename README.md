@@ -1,8 +1,4 @@
-# Lumipop — website
+# SnackNam games site
 
-Public site for the Lumipop game: landing page, privacy policy, support, and (later) `app-ads.txt` for AdMob.
-Served with GitHub Pages from the `main` branch root.
-
-- `index.html` — landing + support
-- `privacy.html` — privacy policy (source of truth: MobileGame repo `public/privacy.html`)
-- `app-ads.txt` — add once the AdMob publisher ID exists
+GitHub Pages site for Swooshi: home + support (`index.html`), privacy policy (`privacy.html`), AdMob `app-ads.txt`.
+The source of truth is the game repo (`snacknam/MobileGame`, folder `site/`); keep the two in sync.

@@ -3,45 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lumipop — Pop the little lights</title>
-<meta name="description" content="Lumipop is a quick tap-to-pop puzzle printed in bright ink. Pop matching light spirits, make rockets, bombs and rainbows, and keep them off the rooftops.">
-<link rel="icon" href="icon.png">
+<title>Swooshi — SnackNam</title>
 <style>
-  :root { --paper:#F3EDE1; --ink:#2A2526; --pink:#FF48B0; --blue:#0078BF; --yellow:#FFD100; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.6 -apple-system, system-ui, sans-serif; }
+  :root { --bg:#161C38; --card:#232C52; --edge:#151B37; --ink:#FFFFFF; --muted:#8B94BE; --accent:#FFC83D; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 ui-rounded, "SF Pro Rounded", system-ui, -apple-system, sans-serif; }
   main { max-width:680px; margin:0 auto; padding:48px 16px 64px; }
-  .icon { width:112px; height:112px; border-radius:25px; display:block; box-shadow:6px 6px 0 var(--ink); border:2.5px solid var(--ink); }
-  h1 { font-size:56px; line-height:1; margin:28px 0 8px; letter-spacing:-1px; color:var(--blue); text-shadow:4px 3px 0 var(--pink); }
-  .tag { font-size:20px; margin:0 0 28px; }
-  ul { padding-left:20px; }
-  li { margin:4px 0; }
-  h2 { font-size:18px; margin:32px 0 6px; }
-  a { color:inherit; text-decoration-color:var(--pink); text-decoration-thickness:2px; }
-  .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:32px; }
-  .links a { text-decoration:none; border:2.5px solid var(--ink); background:var(--yellow); padding:10px 16px; box-shadow:4px 4px 0 var(--ink); font-weight:700; }
-  footer { margin-top:48px; font-size:14px; opacity:.7; }
+  h1 { font-size:40px; margin:0; }
+  .sub { color:var(--muted); margin:4px 0 28px; }
+  .card { background:var(--card); box-shadow:0 5px 0 var(--edge); border-radius:20px; padding:20px; margin:18px 0; }
+  h2 { font-size:18px; margin:0 0 6px; color:var(--accent); }
+  a { color:inherit; text-decoration-color:var(--accent); }
+  .blocks { display:flex; gap:8px; margin:0 0 20px; }
+  .blocks i { width:28px; height:28px; border-radius:8px; box-shadow:0 4px 0 rgba(0,0,0,.3); display:block; }
 </style>
 </head>
 <body>
 <main>
-  <img class="icon" src="icon.png" alt="Lumipop app icon">
-  <h1>Lumipop</h1>
-  <p class="tag">Pop the little lights before they reach the rooftops.</p>
-  <ul>
-    <li>Tap 2 or more matching light spirits to pop them.</li>
-    <li>Pop 5+ at once to make rockets, bombs and rainbows.</li>
-    <li>A new Daily board every day — the same puzzle for everyone.</li>
-    <li>Short rounds, one thumb, plays offline.</li>
-  </ul>
-  <div class="links">
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="#support">Support</a>
-  </div>
-  <h2 id="support">Support</h2>
-  <p>Questions, bugs or purchase problems? Email <a href="mailto:kwansiknam@gmail.com">kwansiknam@gmail.com</a>. Please include your device model and what happened.</p>
-  <p><strong>Restoring "Remove ads":</strong> on the title screen, tap <em>RESTORE</em> at the bottom-left while signed in to the same App Store / Google Play account you bought it with.</p>
-  <footer>© 2026 Kwansik Nam</footer>
+<img src="icon.png" alt="Swooshi icon" width="96" height="96" style="border-radius:22px;display:block;margin:0 0 18px">
+<div class="blocks"><i style="background:#FF5C7C"></i><i style="background:#FFA53D"></i><i style="background:#FFD84A"></i><i style="background:#3FCF8E"></i><i style="background:#4BA8FF"></i><i style="background:#A57CFF"></i></div>
+<h1>Swooshi</h1>
+<p class="sub">Swipe and every block slides. Fill a line to pop it. — by SnackNam</p>
+
+<div class="card">
+<h2>Get the game</h2>
+<p>Coming soon to the App Store and Google Play.</p>
+</div>
+
+<div class="card" id="support">
+<h2>Support</h2>
+<p>Questions, bugs or purchase problems? Email <a href="mailto:kwansiknam@gmail.com">kwansiknam@gmail.com</a> and tell us your device and what happened.</p>
+<p>Bought "Remove Ads" on a new phone? Open Settings (gear) → Restore Purchases.</p>
+</div>
+
+<div class="card">
+<h2>Privacy</h2>
+<p>Read the <a href="privacy.html">privacy policy</a>.</p>
+</div>
+
+<p class="sub">© 2026 SnackNam</p>
 </main>
 </body>
 </html>
